@@ -57,14 +57,14 @@ p {
 }
 
 .about-me {
-    /* margin: 2rem 0; */
-    margin-top: 2rem;
+    margin: 5rem 0;
+    /* margin-top: 2rem; */
 }
 
 /* skill page */
 .skill-col {
-    max-width: auto;
-    width: 26rem;
+    /* max-width: auto; */
+    width: 20rem;
     background-color: #333;
     padding: 3rem;
     color:white;
@@ -72,6 +72,7 @@ p {
 }
 .row-skill {
     max-width: fit-content;
+    margin: 5rem 0;
     margin-left: auto;
     margin-right: auto;
 }
