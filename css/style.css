@@ -103,7 +103,31 @@ p {
     }
 }
 
-@media only screen and (max-width: 400px)  {
+@media only screen and (max-width: 298px)  {
+    
+    html {
+        font-size: 0.75rem;
+    }
 
+    .navbar, footer  {
+        margin: 0.35em;
+    }
+      
+    nav li {
+        margin-right: 0em;
+    }
+    
+    nav li:first-child {
+        margin-left: 0em;
+    }
+
+    body {
+        background-color: #20b9d1;
+    }
+
+    #my-image {
+        padding-bottom: 1em;
+        max-height: 40em;
+    }
     
 }
