@@ -54,7 +54,7 @@ p {
 
 #my-image:hover {
     max-height: 41rem;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .headings {
@@ -68,6 +68,10 @@ p {
 }
 
 /* skill page */
+.skills-cont {
+    padding: 4rem 0;
+}
+
 .skill-col {
     width: 20rem;
     background-color: #333;
@@ -77,6 +81,7 @@ p {
     margin-right: auto;
     margin-bottom: 1rem;
 }
+
 .row-skill {
     max-width: fit-content;
     margin: 5rem 0;
@@ -113,7 +118,7 @@ p {
 @media only screen and (max-width: 298px)  {
     
     html {
-        font-size: 0.75rem;
+        font-size: 0.70rem;
     }
 
     .navbar, footer  {
