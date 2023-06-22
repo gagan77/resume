@@ -48,7 +48,13 @@ p {
 
 /* about page */
 #my-image {
+    margin: 4rem 0;
     max-height: 40rem;
+}
+
+#my-image:hover {
+    max-height: 41rem;
+    margin: 2rem 0;
 }
 
 .headings {
@@ -63,12 +69,13 @@ p {
 
 /* skill page */
 .skill-col {
-    /* max-width: auto; */
     width: 20rem;
     background-color: #333;
     padding: 3rem;
     color:white;
-    margin:1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
 }
 .row-skill {
     max-width: fit-content;
