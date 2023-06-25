@@ -10,4 +10,4 @@ Need to improve mobile experience of the website.
 Works well on iPad but not iPhone.
 
 ## Next steps make the website using React
-This will allow to make this website as a Single Page Application.
+This will allow me to make this website as a Single Page Application.
