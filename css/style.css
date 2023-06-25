@@ -48,13 +48,8 @@ p {
 
 /* about page */
 #my-image {
-    margin: 4rem 0;
+    margin-top: 2rem;
     max-height: 40rem;
-}
-
-#my-image:hover {
-    max-height: 41rem;
-    margin: 3rem 0;
 }
 
 .headings {
@@ -62,14 +57,9 @@ p {
     font-weight: bold;
 }
 
-.about-me {
-    margin: 5rem 0;
-    /* margin-top: 2rem; */
-}
-
 /* skill page */
-.skills-cont {
-    padding: 4rem 0;
+.page-main {
+    padding: 5rem 0;
 }
 
 .skill-col {
@@ -77,7 +67,7 @@ p {
     background-color: #333;
     padding: 3rem;
     color:white;
-    margin-left: auto;
+    margin-left: 1rem;
     margin-right: auto;
     margin-bottom: 1rem;
 }
@@ -91,18 +81,34 @@ p {
 
 
 /* Media Queries */
+@media only screen and (max-width: 991px)  {
+    nav li:first-child {
+        margin-left: 0rem;
+    }
+    #my-image {
+        margin-bottom: 5rem;
+        max-height: 40rem;
+    }
+
+    .skill-col {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media only screen and (max-width: 600px)  {
     
     .navbar, footer  {
-        margin: 0.5em;
+        margin: 0.5rem;
     }
     
     nav li {
-        margin-right: 0em;
+        margin-right: 0rem;
+        margin-left: 0rem;
     }
     
     nav li:first-child {
-        margin-left: 0em;
+        margin-left: 0rem;
     }
 
     body {
@@ -110,8 +116,8 @@ p {
     }
 
     #my-image {
-        padding-bottom: 1em;
-        max-height: 40em;
+        margin-bottom: 4rem;
+        max-height: 40rem;
     }
 }
 
@@ -122,15 +128,15 @@ p {
     }
 
     .navbar, footer  {
-        margin: 0.35em;
+        margin: 0.35rem;
     }
       
     nav li {
-        margin-right: 0em;
+        margin-right: 0rem;
     }
     
     nav li:first-child {
-        margin-left: 0em;
+        margin-left: 0rem;
     }
 
     body {
@@ -138,8 +144,7 @@ p {
     }
 
     #my-image {
-        padding-bottom: 1em;
+        margin-bottom: 3em;
         max-height: 40em;
     }
-    
 }
