@@ -148,4 +148,9 @@ p {
         margin-bottom: 3em;
         max-height: 40em;
     }
+
+    .my-intro {
+        font-size: 0.5rem;
+        margin: 1rem;
+    }
 }
